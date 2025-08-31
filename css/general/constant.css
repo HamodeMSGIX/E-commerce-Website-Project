@@ -67,14 +67,15 @@ header .search {
 
 header .search input[type="text"] {
   padding: 8px 35px 8px 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #ddd;
   border-radius: 6px;
+  background-color: #f5f5f5;
   outline: none;
-  transition: border 0.3s;
+  transition: 0.3s;
 }
 
 header .search input[type="text"]:focus {
-  border-color: #db4444;
+  border: 1px solid #db4444;
 }
 
 header .search::before {
