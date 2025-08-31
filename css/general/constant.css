@@ -1,4 +1,5 @@
 :root {
+<<<<<<< HEAD
   --primary-color: #db4444;
   --secondary-color: #c23333;
   --btn-color: #00ff66;
@@ -101,3 +102,7 @@ header .info i.icon {
 header .info i.icon:hover {
   color: #db4444;
 }
+=======
+    --primary-color: #DB4444;
+}
+>>>>>>> f6dac0f941cc1d86ffb64d7ce928e6dbd0b8232a
