@@ -1,5 +1,4 @@
 :root {
-<<<<<<< HEAD
   --primary-color: #db4444;
   --secondary-color: #c23333;
   --btn-color: #00ff66;
@@ -19,7 +18,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 30px 0 20px;
+  padding-top: 25px;
   width: 90%;
   max-width: 1200px;
   margin: auto;
@@ -102,7 +101,3 @@ header .info i.icon {
 header .info i.icon:hover {
   color: #db4444;
 }
-=======
-    --primary-color: #DB4444;
-}
->>>>>>> f6dac0f941cc1d86ffb64d7ce928e6dbd0b8232a
