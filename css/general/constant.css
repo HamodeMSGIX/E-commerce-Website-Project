@@ -1,0 +1,102 @@
+:root {
+  --primary-color: #db4444;
+  --secondary-color: #c23333;
+  --btn-color: #00ff66;
+  --btn-hover-color: #00cc52;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+}
+
+hr {
+  opacity: 0.4;
+}
+
+/* ===== Header ===== */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0 20px;
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Logo */
+header .logo a {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+  cursor: pointer;
+}
+
+/* Nav */
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+header nav ul li {
+  cursor: pointer;
+  color: #333;
+  font-size: 16px;
+  transition: 0.2s ease-in-out;
+  font-weight: 400;
+}
+
+header nav ul li:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+header .info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+header .search {
+  position: relative;
+}
+
+header .search input[type="text"] {
+  padding: 8px 35px 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+header .search input[type="text"]:focus {
+  border-color: #db4444;
+}
+
+header .search::before {
+  content: "\f002";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+  pointer-events: none;
+  font-size: 14px;
+}
+
+header .info i.icon {
+  cursor: pointer;
+  font-size: 18px;
+  color: #444;
+  transition: color 0.3s;
+}
+
+header .info i.icon:hover {
+  color: #db4444;
+}
