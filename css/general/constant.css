@@ -103,3 +103,9 @@ header .info i.icon {
 header .info i.icon:hover {
   color: #db4444;
 }
+
+header .active {
+  color: var(--primary-color);
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
