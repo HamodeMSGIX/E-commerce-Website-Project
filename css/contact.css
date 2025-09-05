@@ -1,3 +1,4 @@
+/* Variables Section */
 :root {
   --primary-color: #db4444;
   --background-color-1: #fff;
@@ -18,7 +19,9 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+/* End Variables Section */
 
+/* Header & Navbar Section */
 header {
   background: var(--background-color-1);
   border-bottom: 1px solid var(--border-color);
@@ -120,7 +123,9 @@ header {
   color: var(--text-color);
   border-radius: 47px;
 }
+/* End Header & Navbar Section */
 
+/* Main Content - Contact Section */
 .contact-container {
   display: flex;
   justify-content: center;
@@ -151,6 +156,16 @@ header {
   margin-bottom: 24px;
 }
 
+.btn-primary {
+  background: var(--primary-color);
+  color: var(--background-color-1);
+  border: none;
+  padding: 16px 48px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+}
 .info-item {
   display: flex;
   align-items: center;
@@ -179,13 +194,13 @@ header {
 .contact-info p {
   font-size: 14px;
   color: var(--text-color);
-  margin-left: 0; /* التعديل الأول */
+  margin-left: 0;
   line-height: 1.5;
 }
 
 .divider {
   border: none;
-  border-top: 1px solid #cccccc; /* التعديل الثاني */
+  border-top: 1px solid #cccccc;
   margin: 32px 0;
 }
 
@@ -213,7 +228,7 @@ header {
   font-size: 16px;
   color: var(--text-color);
   outline: none;
-  resize: vertical;
+  resize: none;
 }
 
 .contact-form input::placeholder,
@@ -223,6 +238,7 @@ header {
 
 .contact-form textarea {
   width: 100%;
+  height: 207px;
   margin-bottom: 32px;
 }
 
@@ -232,6 +248,27 @@ header {
   margin-top: 0;
 }
 
+.input-wrapper {
+  position: relative;
+  flex: 1;
+}
+
+.input-wrapper input {
+  width: 100%;
+}
+
+.input-wrapper .required-star {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 114px;
+  color: var(--primary-color);
+  font-size: 16px;
+  pointer-events: none;
+}
+/* End Main Content - Contact Section */
+
+/* Footer Section */
 .footer {
   background-color: var(--footer-background-color);
   color: var(--footer-text-color);
@@ -353,18 +390,4 @@ header {
 .footer-bottom p {
   color: var(--footer-text-light);
 }
-
-.input-wrapper {
-  position: relative;
-  flex: 1;
-}
-
-.input-wrapper .required-star {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 100px;
-  color: var(--primary-color);
-  font-size: 16px;
-  pointer-events: none;
-}
+/* End Footer Section */
