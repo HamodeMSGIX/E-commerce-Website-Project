@@ -1,101 +1,10 @@
+/* Root */
 :root {
   --primary-color: #db4444;
   --background-color-1: #fff;
   --background-color-2: #f5f5f5;
   --text-color: #000000;
   --text-color-light: #777;
-  --border-color: #eee;
-  --footer-background-color: #000;
-  --footer-text-color: #fafafa;
-  --footer-border-color: rgba(255, 255, 255, 0.2);
-  --footer-text-light: rgba(255, 255, 255, 0.6);
-  --app-promo-color: #d9d9db;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
-
-header {
-  background: var(--background-color-1);
-  border-bottom: 1px solid var(--border-color);
-  padding: 16px 135px;
-  padding-top: 40px;
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  font-size: 24px;
-  color: var(--text-color);
-  font-weight: bold;
-}
-
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 48px;
-}
-.nav-links a {
-  text-decoration: none;
-  color: var(--text-color);
-  font-size: 16px;
-}
-.nav-links a:hover {
-  color: var(--primary-color);
-}
-
-.search-and-icons {
-  display: flex;
-  align-items: center;
-  gap: 24px;
-}
-
-.search-box {
-  display: flex;
-  align-items: center;
-  background: var(--background-color-2);
-  border-radius: 6px;
-  padding: 10px 18px;
-}
-.search-box input {
-  border: none;
-  background: transparent;
-  outline: none;
-  font-size: 12px;
-  flex: 1;
-  padding-right: 8px;
-  color: var(--text-color);
-}
-.search-box button {
-  border: none;
-  background: transparent;
-  cursor: pointer;
-  font-size: 16px;
-  color: var(--text-color);
-}
-
-.nav-icons {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-}
-
-.nav-icons a {
-  font-size: 20px;
-  position: relative;
-  text-decoration: none;
-}
-
-.nav-icons a:hover {
-  color: var(--primary-color);
 }
 
 .profile-icon {
@@ -103,23 +12,22 @@ header {
   align-items: center;
   justify-content: center;
   font-weight: 400;
-  color: var(--background-color-1);
+  color: var(--background-color-1); 
   border-radius: 47px;
   background-color: var(--primary-color);
   width: 32px;
   height: 32px;
 }
+
+.profile-icon i {
+  color: var(--background-color-1); 
+}
+
 .profile-icon i:hover {
-  color: var(--text-color);
+  color: var(--background-color-1);
 }
-.cart-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 400;
-  color: var(--text-color);
-  border-radius: 47px;
-}
+
+/* Profile Section */
 .profile-container {
   display: flex;
   justify-content: center;
@@ -224,126 +132,4 @@ header {
   font-weight: 500;
   cursor: pointer;
   text-decoration: none;
-}
-
-.footer {
-  background-color: var(--footer-background-color);
-  color: var(--footer-text-color);
-  padding: 80px 0 24px 0;
-}
-
-.footer-container {
-  max-width: 1170px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  gap: 30px;
-  padding: 0 20px;
-}
-
-.footer-column {
-  flex: 1;
-}
-
-.footer-column h3 {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 24px;
-}
-
-.footer-column h4 {
-  font-size: 20px;
-  font-weight: 500;
-  margin-bottom: 24px;
-}
-
-.footer-column p {
-  font-size: 16px;
-  margin-bottom: 16px;
-  line-height: 1.5;
-}
-
-.footer-column ul {
-  list-style: none;
-}
-
-.footer-column ul li {
-  margin-bottom: 16px;
-}
-
-.footer-column ul li a {
-  text-decoration: none;
-  color: var(--footer-text-color);
-}
-.footer-column ul li a:hover {
-  text-decoration: underline;
-}
-
-.subscribe-form {
-  position: relative;
-  max-width: 220px;
-}
-
-.subscribe-form input {
-  width: 100%;
-  background: transparent;
-  border: 1.5px solid var(--footer-text-color);
-  border-radius: 4px;
-  padding: 12px 40px 12px 16px;
-  color: var(--footer-text-color);
-  font-size: 16px;
-}
-
-.subscribe-form button {
-  position: absolute;
-  top: 50%;
-  right: 12px;
-  transform: translateY(-50%);
-  background: transparent;
-  border: none;
-  color: var(--footer-text-color);
-  font-size: 20px;
-  cursor: pointer;
-}
-
-.app-promo {
-  font-size: 12px;
-  color: var(--app-promo-color);
-  width: 240px;
-}
-
-.app-stores {
-  display: flex;
-  gap: 8px;
-  margin-bottom: 24px;
-}
-
-.Google-Play-image {
-  width: 119px;
-  height: 50px;
-}
-
-.app-stores a img {
-  height: 40px;
-}
-
-.social-icons {
-  display: flex;
-  gap: 24px;
-}
-
-.social-icons a {
-  color: var(--footer-text-color);
-  font-size: 20px;
-}
-
-.footer-bottom {
-  margin-top: 60px;
-  padding-top: 24px;
-  border-top: 1px solid var(--footer-border-color);
-  text-align: center;
-}
-
-.footer-bottom p {
-  color: var(--footer-text-light);
 }
