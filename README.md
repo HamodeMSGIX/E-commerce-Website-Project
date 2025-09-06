@@ -7,14 +7,14 @@ A clean, multi-page e-commerce UI built with **HTML** and **CSS**. The goal is a
 ## Screenshots
 
 <p align="center">
+  <img src="screen_shouts/login.png" alt="Login page screenshot" width="45%"/>
+  <img src="screen_shouts/sign_up.png" alt="Sign Up page screenshot" width="45%"/>
+</p>
+<p align="center">
   <img src="screen_shouts/home.png" alt="Home page screenshot" width="60%"/>
 </p>
 <p align="center">
   <img src="screen_shouts/about.png" alt="About page screenshot" width="60%"/>
-</p>
-<p align="center">
-  <img src="screen_shouts/login.png" alt="Login page screenshot" width="45%"/>
-  <img src="screen_shouts/sign_up.png" alt="Sign Up page screenshot" width="45%"/>
 </p>
 <p align="center">
   <img src="screen_shouts/contact.png" alt="Contact page screenshot" width="45%"/>
@@ -76,6 +76,7 @@ A clean, multi-page e-commerce UI built with **HTML** and **CSS**. The goal is a
 ```bash
 git clone https://github.com/HamodeMSGIX/E-commerce-Website-Project.git
 cd E-commerce-Website-Project
+
 
 
 
