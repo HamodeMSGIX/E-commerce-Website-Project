@@ -11,8 +11,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: 400;
-  color: var(--background-color-1); 
+  color: var(--background-color-1);
   border-radius: 47px;
   background-color: var(--primary-color);
   width: 32px;
@@ -20,7 +19,7 @@
 }
 
 .profile-icon i {
-  color: var(--background-color-1); 
+  color: var(--background-color-1);
 }
 
 .profile-icon i:hover {

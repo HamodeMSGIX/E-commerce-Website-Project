@@ -1,4 +1,3 @@
-/* Root */
 :root {
   --primary-color: #db4444;
   --secondary-color: #c23333;
@@ -6,10 +5,18 @@
   --btn-hover-color: #00cc52;
 }
 
-body {
-  font-family: Poppins, sans-serif;
+* {
   margin: 0;
   padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+body {
+  font-family: Poppins, sans-serif;
 }
 
 hr {
@@ -21,10 +28,10 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 30px 0 20px;
+  padding-top: 25px;
   width: 90%;
   max-width: 1200px;
-  margin: auto;
+  margin: 0 auto 10px;
 }
 
 /* Logo */
@@ -43,21 +50,21 @@ header nav ul {
   justify-content: center;
   align-items: center;
   gap: 25px;
-  margin: 0;
-  padding: 0;
 }
 
 header nav ul li a {
-  color: #000;
   text-decoration: none;
+  cursor: pointer;
+  color: #333;
   font-size: 16px;
+  transition: 0.2s ease-in;
   font-weight: 400;
-  transition: 0.2s ease-in-out;
 }
 
 header nav ul li a:hover {
+  color: var(--primary-color);
   text-decoration: underline;
-  color: #000;
+  text-underline-offset: 5px;
 }
 
 header .info {
@@ -107,13 +114,8 @@ header .info i.icon:hover {
   color: #db4444;
 }
 
-header .info .profile-icon {
-  background-color: var(--primary-color);
-  color: #fff;
-  width: 30px;
-  height: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
+header .active {
+  color: var(--primary-color);
+  text-decoration: underline;
+  text-underline-offset: 5px;
 }
