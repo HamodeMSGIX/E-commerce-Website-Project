@@ -53,3 +53,21 @@ Here are a few screenshots showcasing different parts of the website design.
 ├── home.html
 ├── index.html
 └── sign_up.html
+---
+
+## How to Get Started
+
+To view the project, follow these steps:
+
+1.  **Clone the repository**: Copy this repository to your local machine using the command:
+    ```bash
+    git clone [https://github.com/HamodeMSGIX/E-commerce-Website-Project](https://github.com/HamodeMSGIX/E-commerce-Website-Project)
+    ```
+
+2.  **Open the files**: Open any HTML file (such as `index.html` or `home.html`) directly in your web browser.
+
+---
+
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
