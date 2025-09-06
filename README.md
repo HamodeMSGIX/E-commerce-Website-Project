@@ -48,22 +48,24 @@ A clean, multi-page e-commerce UI built with **HTML** and **CSS**. The goal is a
 ---
 
 ## Project Structure
-. ├── css/ │ 
-    └── about.css
-    └── constant.css 
-    └── footer.css
-    └── contact.css 
-    └── home.css
-    └── sign_up.css 
-  ├── images/ │ 
-    └── ... (project images) 
-  ├── html/ │
-    └── about.html 
-    └── account.html 
-    └── contact.html 
-    └── home.html 
-    └── index.html 
+.
+├── css/
+│   ├── about.css
+│   ├── constant.css
+│   ├── footer.css
+│   ├── contact.css
+│   ├── home.css
+│   └── sign_up.css
+├── images/
+│   └── ... (project images)
+└── html/
+    ├── about.html
+    ├── account.html
+    ├── contact.html
+    ├── home.html
+    ├── index.html
     └── sign_up.html
+
 
 
 ---
@@ -74,6 +76,7 @@ A clean, multi-page e-commerce UI built with **HTML** and **CSS**. The goal is a
 ```bash
 git clone https://github.com/HamodeMSGIX/E-commerce-Website-Project.git
 cd E-commerce-Website-Project
+
 
 
 
