@@ -46,9 +46,6 @@ This project is a multi-page e-commerce website designed and developed using HTM
 
 - **Font Awesome**: To add professional icons.
 
-- **Remixicon**: An additional icon library.
-
-
 
 ---
 
@@ -90,4 +87,5 @@ To view the project, follow these steps:
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
 
