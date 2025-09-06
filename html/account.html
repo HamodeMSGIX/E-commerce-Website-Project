@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit Profile</title>
+    <link rel="icon" type="image/png" href="../images/edit_icon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../css/general/constant.css" />
+    <link rel="stylesheet" href="../css/general/footer.css" />
+    <link rel="stylesheet" href="../css/account.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="logo">
+        <a href="#">Exclusive</a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="./home.html">Home</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./sign_up.html">Sign Up</a></li>
+        </ul>
+      </nav>
+      <div class="info">
+        <div class="search">
+          <input type="text" placeholder="What are you looking for?" />
+        </div>
+        <a href="wishlist.html">
+          <i class="fa-regular fa-heart icon"></i>
+        </a>
+        <a href="cart.html">
+          <i class="fa-solid fa-cart-shopping icon"></i>
+        </a>
+        <a href="account.html" class="profile-icon">
+          <i class="fa-regular fa-user"></i>
+        </a>
+      </div>
+    </header>
+    <hr />
+    <!-- Profile Section -->
+    <main class="profile-container">
+      <div class="profile-box">
+        <div class="profile-form-content">
+          <p class="form-title">Edit Your Profile</p>
+
+          <form class="edit-profile-form">
+            <div class="form-row">
+              <div class="input-group">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" placeholder="Md" />
+              </div>
+              <div class="input-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" placeholder="Rimel" />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="input-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="rimel1111@gmail.com"
+                />
+              </div>
+              <div class="input-group">
+                <label for="address">Address</label>
+                <input
+                  type="text"
+                  id="address"
+                  placeholder="Kingston, 5236, United State"
+                />
+              </div>
+            </div>
+
+            <h3 class="password-title">Password Changes</h3>
+            <div class="input-group">
+              <input type="password" placeholder="Current Password" />
+            </div>
+            <div class="input-group">
+              <input type="password" placeholder="New Password" />
+            </div>
+            <div class="input-group">
+              <input type="password" placeholder="Confirm New Password" />
+            </div>
+          </form>
+
+          <div class="form-actions">
+            <a href="#" class="btn-cancel">Cancel</a>
+            <button type="submit" class="btn-primary">Save Changes</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-column">
+          <h3>Exclusive</h3>
+          <h4>Subscribe</h4>
+          <p>Get 10% off your first order</p>
+          <div class="subscribe-box">
+            <input type="email" placeholder="Enter your email" />
+            <button><i class="fa-solid fa-paper-plane"></i></button>
+          </div>
+        </div>
+
+        <div class="footer-column">
+          <h4>Support</h4>
+          <p>111 Bijoy sarani, Dhaka, <br />DH 1515, Bangladesh.</p>
+          <p>exclusive@gmail.com</p>
+          <p>+88015-88888-9999</p>
+        </div>
+
+        <div class="footer-column">
+          <h4>Account</h4>
+          <ul>
+            <li><a href="account.html">My Account</a></li>
+            <li><a href="#">Login / Register</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="wishlist.html">Wishlist</a></li>
+            <li><a href="home.html">Shop</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>Quick Link</h4>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms Of Use</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>Download App</h4>
+          <p class="app-promo">Save $3 with App New User Only</p>
+          <div class="app-images">
+            <img
+              class="Google-Play-image"
+              src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+              alt="Google Play"
+            />
+            <img
+              class="App-Store-image"
+              src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+              alt="App Store"
+            />
+          </div>
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; Copyright Rimel 2022. All right reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>
