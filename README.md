@@ -2,18 +2,12 @@
 
 A clean, multi-page e-commerce UI built with **HTML** and **CSS**. The goal is a simple, attractive interface that makes browsing and shopping feel smooth.
 
+![screeenshouts](screen_shouts/sign_up.png)
+
 ---
+![screeenshouts](screen_shouts/home.png)
 
-## Screenshots
-
-<p align="center">
-  <img src="images/home.png" alt="Home page" width="45%"/>
-  <img src="images/about.png" alt="About page" width="45%"/>
-</p>
-<p align="center">
-  <img src="images/login.png" alt="Login page" width="45%"/>
-  <img src="images/contact.png" alt="Contact page" width="45%"/>
-</p>
+![screeenshouts](screen_shouts/about.png)
 
 > Images available in your repo: `about.png`, `account.png`, `contact.png`, `home.png`, `login.png`, `sign_up.png`.  
 > Feel free to swap any of the above—just change the filenames in the `<img>` tags.
@@ -68,5 +62,6 @@ A clean, multi-page e-commerce UI built with **HTML** and **CSS**. The goal is a
 ```bash
 git clone https://github.com/HamodeMSGIX/E-commerce-Website-Project.git
 cd E-commerce-Website-Project
+
 
 
