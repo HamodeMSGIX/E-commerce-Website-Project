@@ -80,7 +80,7 @@ To view the project, follow these steps:
 
 1.  **Clone the repository**: Copy this repository to your local machine using the command:
     ```bash
-    git clone [Your Repository URL]
+    git clone https://github.com/HamodeMSGIX/E-commerce-Website-Project
     ```
 
 2.  **Open the files**: Open any HTML file (such as `index.html` or `home.html`) directly in your web browser.
@@ -90,3 +90,4 @@ To view the project, follow these steps:
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
