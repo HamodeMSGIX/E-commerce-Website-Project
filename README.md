@@ -2,15 +2,25 @@
 
 A clean, multi-page e-commerce UI built with **HTML** and **CSS**. The goal is a simple, attractive interface that makes browsing and shopping feel smooth.
 
-![screeenshouts](screen_shouts/sign_up.png)
-
 ---
-![screeenshouts](screen_shouts/home.png)
 
-![screeenshouts](screen_shouts/about.png)
+## Screenshots
 
-> Images available in your repo: `about.png`, `account.png`, `contact.png`, `home.png`, `login.png`, `sign_up.png`.  
-> Feel free to swap any of the above—just change the filenames in the `<img>` tags.
+<p align="center">
+  <img src="screen_shouts/home.png" alt="Home page screenshot" width="45%"/>
+  <img src="screen_shouts/about.png" alt="About page screenshot" width="45%"/>
+</p>
+<p align="center">
+  <img src="screen_shouts/login.png" alt="Login page screenshot" width="45%"/>
+  <img src="screen_shouts/sign_up.png" alt="Sign Up page screenshot" width="45%"/>
+</p>
+<p align="center">
+  <img src="screen_shouts/contact.png" alt="Contact page screenshot" width="45%"/>
+  <img src="screen_shouts/account.png" alt="Account page screenshot" width="45%"/>
+</p>
+
+> Available screenshots: `about.png`, `account.png`, `contact.png`, `home.png`, `login.png`, `sign_up.png`.  
+> Keep any subset you like—just remove the corresponding `<img>` tags above.
 
 ---
 
@@ -36,32 +46,4 @@ A clean, multi-page e-commerce UI built with **HTML** and **CSS**. The goal is a
 ---
 
 ## Project Structure
-.
-├── css/
-│   ├── about.css
-│   ├── constant.css
-│   ├── footer.css
-│   ├── contact.css
-│   ├── home.css
-│   └── sign_up.css
-├── images/
-│   └── ... (project images)
-├── about.html
-├── account.html
-├── contact.html
-├── home.html
-├── index.html
-└── sign_up.html
-
-
----
-
-## Getting Started
-
-1) **Clone**
-```bash
-git clone https://github.com/HamodeMSGIX/E-commerce-Website-Project.git
-cd E-commerce-Website-Project
-
-
 
