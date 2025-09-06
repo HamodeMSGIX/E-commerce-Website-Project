@@ -51,7 +51,7 @@
 1.  **استنساخ المستودع (Clone)**: قم بنسخ هذا المستودع إلى جهازك المحلي باستخدام الأمر:
 
     ```bash
-    git clone [رابط المستودع الخاص بك]
+    git clone https://github.com/HamodeMSGIX/E-commerce-Website-Project
     ```
 
 2.  **فتح الملفات**: افتح أي ملف HTML (مثل `index.html` أو `home.html`) مباشرة في متصفح الويب الخاص بك.
@@ -61,4 +61,5 @@
 ## الترخيص
 
 هذا المشروع مرخص بموجب [ترخيص MIT](https://opensource.org/licenses/MIT).
+
 
