@@ -47,7 +47,6 @@ A clean, multi-page e-commerce UI built with **HTML** and **CSS**. The goal is a
 
 ---
 
-
 📁 E-commerce-Website-Project
 │
 ├── 📁 css
@@ -69,8 +68,6 @@ A clean, multi-page e-commerce UI built with **HTML** and **CSS**. The goal is a
 │ ├── 📄 index.html
 │ └── 📄 sign_up.html
 
-Copy code
-
 
 
 
@@ -82,6 +79,7 @@ Copy code
 ```bash
 git clone https://github.com/HamodeMSGIX/E-commerce-Website-Project.git
 cd E-commerce-Website-Project
+
 
 
 
